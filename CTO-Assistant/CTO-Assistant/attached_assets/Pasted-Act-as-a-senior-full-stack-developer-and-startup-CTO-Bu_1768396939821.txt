@@ -1,0 +1,174 @@
+Act as a senior full-stack developer and startup CTO.
+
+Build a scalable MVP web platform similar to a local services marketplace (like freelance platforms but for real-world services).
+
+Core Concept
+
+A global digital marketplace that connects local service providers (cleaning, plumbing, electricity, moving, etc.) with clients looking for these services.
+
+The platform must:
+
+Work without a physical store
+
+Be scalable internationally
+
+Support multiple countries and cities
+
+Take a commission per service
+
+Technologies
+
+Backend: Node.js + Express
+
+Frontend: React (or Next.js)
+
+Database: MongoDB
+
+Styling: Tailwind CSS
+
+Auth: simple email/phone (no complex auth for MVP)
+
+Languages (IMPORTANT)
+
+Implement full multilingual support with a language switcher:
+
+Arabic (RTL support)
+
+French
+
+English
+
+Use i18n best practices.
+
+Countries & Locations
+
+Include ALL countries of the world (use a countries dataset / API)
+
+User flow:
+
+Select country
+
+Select city
+
+Available services appear automatically
+
+Services
+
+For each country, allow these services (editable from admin):
+
+Home cleaning
+
+Plumbing
+
+Electricity
+
+Painting
+
+Moving
+
+Appliance repair
+
+Any local service
+
+User Roles
+1. Client
+
+Choose country / city
+
+Choose service
+
+See list of providers
+
+Contact provider via WhatsApp / phone
+
+Leave rating after service
+
+2. Service Provider
+
+Register with:
+
+Name
+
+Phone number
+
+Country
+
+City
+
+Services offered
+
+Dashboard to:
+
+See requests
+
+See ratings
+
+Business Model
+
+Commission system:
+
+10% for low-price services
+
+15% for medium
+
+20% for high-price
+
+Max 25%
+
+Commission logic should be configurable
+
+MVP Pages (Very Important)
+
+Landing page (explains concept clearly)
+
+Country & city selection
+
+Services listing
+
+Providers list
+
+Provider registration page
+
+Simple admin panel
+
+Admin Panel
+
+Add / remove countries
+
+Add / remove services
+
+Ban providers
+
+See total commissions
+
+UX / UI
+
+Simple
+
+Fast
+
+Mobile-first
+
+No unnecessary complexity
+
+Extra Requirements
+
+SEO friendly
+
+Clean code
+
+Well-commented
+
+Ready for future features (payments, escrow, mobile app)
+
+Output
+
+Generate full project structure
+
+Frontend + Backend code
+
+Sample data
+
+Instructions to run on Replit
+
+This project is a startup MVP, so focus on speed, simplicity, and scalability, not over-engineering.
